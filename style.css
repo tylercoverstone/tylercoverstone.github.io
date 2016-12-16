@@ -10,9 +10,78 @@ h1 {
 	font-weight: 400;
 	text-align: center;
 }
+h2 {
+	color: black;
+	font-size: 40px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+h3 {
+	color: black;
+	font-size: 30px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: 600;
+	text-align: center;
+}
 p {
 	color: white;
 	font-size: 20px;
 	font-family: Tahoma, Geneva, sans-serif;
 	text-align: center;
 }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.active {
+	background-color: white;
+	color: gray;
+	border: 1px solid gray;
+}
+li a:hover:not(.active) {
+	opacity: 0.75;
+}
+/*About Me*/
+.profileBox {
+	float: left;
+	width: 400px;
+	height: 600px;
+	margin-left: 50px;
+	background-color: rgb(240,240,240);
+}
+.personalInfoBox {
+	float: right;
+	width: 700px;
+	height: 920px;
+	margin-right: 50px;
+	background-color: rgb(240,240,240);
+}
+.img-circle {
+	border-radius: 50%;
+}
+div.img {
+	margin: 5px;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	opacity: 0.5;
+}
+div.img:hover {
+	opacity: 1;
+	transition: 0.5s all;
+}
+/*About Me*/
