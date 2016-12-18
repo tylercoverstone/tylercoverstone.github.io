@@ -13,14 +13,14 @@ h1 {
 h2 {
 	color: black;
 	font-size: 40px;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: 'Philosopher', sans-serif;;
 	font-weight: 400;
 	text-align: center;
 }
 h3 {
 	color: black;
 	font-size: 30px;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: 'Philosopher', sans-serif;
 	font-weight: 600;
 	text-align: center;
 }
@@ -48,12 +48,13 @@ li a {
 	text-decoration: none;
 }
 .active {
-	background-color: white;
-	color: gray;
-	border: 1px solid gray;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	color: white;
 }
 li a:hover:not(.active) {
-	opacity: 0.75;
+	opacity: 0.5;
+	transition: 1s all;
 }
 /*About Me*/
 .profileBox {
@@ -61,14 +62,14 @@ li a:hover:not(.active) {
 	width: 400px;
 	height: 600px;
 	margin-left: 50px;
-	background-color: rgb(240,240,240);
+	background-color: rgb(245,245,245);
 }
 .personalInfoBox {
 	float: right;
 	width: 700px;
 	height: 920px;
 	margin-right: 50px;
-	background-color: rgb(240,240,240);
+	background-color: rgb(245,245,245);
 }
 .img-circle {
 	border-radius: 50%;
@@ -85,3 +86,14 @@ div.img:hover {
 	transition: 0.5s all;
 }
 /*About Me*/
+/*Contact Me*/
+.contactBox {
+	display: block;
+	width: 900px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(245,245,245);
+	margin-bottom: 100px;
+}
+/*Contact Me*/
