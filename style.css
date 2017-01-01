@@ -87,7 +87,85 @@ div.img:hover {
 }
 /*About Me*/
 /*Project List*/
+.projectBox {
+	display: block;
+	width: 700px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	background-color: rgb(245,245,245);
+}
+div.projectImg {
+	margin: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 300px;
 
+}
+div.projectImg:hover {
+	opacity: 0.5;
+	transition: 0.5s all;
+}
+.back{
+	color: black;
+	text-align: left;
+	font-size: 20px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-weight: 400; 
+	text-decoration: none;
+	margin-left: 18%;
+	margin-top: 50px;
+}
+.backBox {
+	width: 300px;
+	height: 30px;
+	background-color: rgb(245,245,245);
+}
+.back:hover{
+	opacity: 0.5;
+	transition: 0.5s all;
+}
+.projectTitle{
+	color: black;
+	font-family: 'Philosopher', sans-serif;
+}
+div.sampleImg {
+	margin: 10px;
+	display: inline-block;
+	height: 400px;
+	opacity: 0.5;
+}
+div.sampleImg:hover{
+	opacity: 1;
+	transition: 0.5s all;
+}
+.pfTextBox{
+	display: block;
+	width: 900px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(245,245,245);
+	margin-bottom: 100px;
+}
+.pfImageBox {
+	display: block;
+	width: 1250px;
+	height: 430px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(245,245,245);
+	margin-bottom: 50px;
+}
+video{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
 /*Project List*/
 /*Contact Me*/
 .contactBox {
