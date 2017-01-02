@@ -177,4 +177,10 @@ video{
 	background-color: rgb(245,245,245);
 	margin-bottom: 100px;
 }
+div.iconImg {
+	margin: 20px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
 /*Contact Me*/
