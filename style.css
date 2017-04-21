@@ -138,6 +138,11 @@ div.sampleImg {
 	height: 400px;
 	opacity: 0.5;
 }
+.sampleImg2 {
+	margin: 10px;
+	display: inline-block;
+	height: 400px;
+}
 div.sampleImg:hover{
 	opacity: 1;
 	transition: 0.5s all;
