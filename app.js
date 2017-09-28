@@ -76,7 +76,7 @@ myApp.controller("ProjectsCtrl", function($scope){
 		{
 			title: "Further Learning",
 			imgURL: "images/udemy.jpg",
-			description: "Staying busy is a priority of mine, as gaining knowledge in the field of development is both enjoyable and indespensable. This is why I am constantly pushing myself to take on new projects, learn new things, and program in as much free time as I am offered outside of my studies at school. I am constantly taking courses online through websites such as Udemy and Lynda so that I can broaden my knowledge with the end goal of being a well rounded developer.<br/>Some courses that I have taken include topics of\n\nWeb Development,\n\nJavaScript Frameworks,\n\niOS Development,\n\nThe Ionic Framework,\n\nXamarin,\n\nC#,\n\nPython,\n\nand more."
+			description: "Staying busy is a priority of mine, as gaining knowledge in the field of development is both enjoyable and indespensable. This is why I am constantly pushing myself to take on new projects, learn new things, and program in as much free time as I am offered outside of my studies at school. I am constantly taking courses online through websites such as Udemy and Lynda so that I can broaden my knowledge with the end goal of being a well rounded developer. Some courses that I have taken include topics of\n\nWeb Development,\n\nJavaScript Frameworks,\n\niOS Development,\n\nThe Ionic Framework,\n\nXamarin,\n\nC#,\n\nPython,\n\nand more."
 		}
 	];
 
