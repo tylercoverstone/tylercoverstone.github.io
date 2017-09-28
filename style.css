@@ -1,40 +1,27 @@
-body {
-	background-image: url("images/surfBackground.JPG");
-	background-repeat: no-repeat;
-	/*background-attachment: fixed;*/
+h2{
+	font-family: 'Raleway', sans-serif;
 }
-h1 {
-	color: white;
-	font-size: 60px;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-weight: 400;
-	text-align: center;
+h3{
+	font-family: 'Raleway', sans-serif;
 }
-h2 {
-	color: black;
-	font-size: 40px;
-	font-family: 'Philosopher', sans-serif;;
-	font-weight: 400;
-	text-align: center;
-}
-h3 {
-	color: black;
-	font-size: 30px;
-	font-family: 'Philosopher', sans-serif;
-	font-weight: 600;
-	text-align: center;
+h4{
+	font-family: 'Raleway', sans-serif;
 }
 p {
-	color: white;
-	font-size: 20px;
-	font-family: Tahoma, Geneva, sans-serif;
-	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+.fixedBackground {
+	background-image: url("images/surfBackground.JPG");
+	background-repeat: no-repeat;
+}
+.greetingHeader {
+	width: 100%;
 }
 ul {
 	list-style-type: none;
-	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	width:100%;
+	margin-left: 10px;
 }
 li {
 	float: left;
@@ -47,145 +34,275 @@ li a {
 	padding: 14px 16px;
 	text-decoration: none;
 }
-.active {
+.activeNav {
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;
 	color: white;
+	text-decoration: none;
 }
-li a:hover:not(.active) {
-	opacity: 0.5;
+.activeNav:hover {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	color: white;
+	text-decoration: none;
+}
+li a:hover:not(.activeNav){
+	opacity: 0.75;
 	transition: 1s all;
+	text-decoration: none;
 }
-/*About Me*/
-.profileBox {
-	float: left;
-	width: 400px;
-	height: 600px;
-	margin-left: 50px;
-	background-color: rgb(245,245,245);
+.greetingHeader {
+	color: white;
+	font-size: 60px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 100px;
 }
-.personalInfoBox {
-	float: right;
-	width: 700px;
-	height: 920px;
-	margin-right: 50px;
-	background-color: rgb(245,245,245);
+.cycleContainer{
+	position: relative;
+	margin: 0 auto 20px;
+	width: 1000px;
+	background-color: transparent;
 }
-.img-circle {
-	border-radius: 50%;
+.introContainer {
+	padding: 10px;
+	margin-top:15px;
+	margin-bottom: 10px;
+	display:none;
+	position: relative;
+	background-color: transparent;
 }
-div.img {
-	margin: 5px;
-	display: inline-block;
-	width: 300px;
-	height: 300px;
-	opacity: 0.5;
+.introduction {
+	color: white;
+	font-size: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	margin-left: 30%; 
+	margin-right: 30%; 
+	margin-top: 100px;
+	background-color: transparent;
 }
-div.img:hover {
-	opacity: 1;
-	transition: 0.5s all;
+.container.ng-enter {
+	-webkit-transition:0.5s linear all;
+	-moz-transition:0.5s linear all;
+	-o-transition:0.5s linear all;
+	transition:o.5s linear all;
+	opacity:0;
 }
-/*About Me*/
-/*Project List*/
-.projectBox {
-	display: block;
-	width: 700px;
-	height: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 100px;
-	background-color: rgb(245,245,245);
+.container.ng-enter-active {
+	opacity:1;
 }
-div.projectImg {
-	margin: 5px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 300px;
-	height: 300px;
-
+.arrow {
+	width: 100px; 
+	height: 100px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block; 
+	margin-top: 100px;
 }
-div.projectImg:hover {
-	opacity: 0.5;
-	transition: 0.5s all;
+.appear{
+	opacity: 0;
 }
-.back{
-	color: black;
-	text-align: left;
-	font-size: 20px; 
+.appear2{
+	opacity: 0;
+}
+.appear3{
+	opacity: 0;
+}
+.appear4{
+	opacity: 0;
+}
+.bottomArrow {
+	color: black; 
+	font-size: 40px; 
 	font-family: Tahoma, Geneva, sans-serif; 
 	font-weight: 400; 
-	text-decoration: none;
-	margin-left: 18%;
-	margin-top: 50px;
-}
-.backBox {
-	width: 300px;
-	height: 30px;
-	background-color: rgb(245,245,245);
-}
-.back:hover{
-	opacity: 0.5;
-	transition: 0.5s all;
-}
-.projectTitle{
-	color: black;
-	font-family: 'Philosopher', sans-serif;
-}
-div.sampleImg {
-	margin: 10px;
-	display: inline-block;
-	height: 400px;
-	opacity: 0.5;
-}
-.sampleImg2 {
-	margin: 10px;
-	display: inline-block;
-	height: 400px;
-}
-div.sampleImg:hover{
-	opacity: 1;
-	transition: 0.5s all;
-}
-.pfTextBox{
 	display: block;
-	width: 900px;
-	height: 250px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: rgb(245,245,245);
-	margin-bottom: 100px;
 }
-.pfImageBox {
-	display: block;
-	width: 1250px;
-	height: 430px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: rgb(245,245,245);
-	margin-bottom: 50px;
+.grow{
+	transition: all .4s ease-in-out;
 }
-video{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
+.grow:hover{
+	transform: scale(1.4);
 }
-/*Project List*/
-/*Contact Me*/
+/*Start Contact Page ===========================================================================================*/
 .contactBox {
 	display: block;
 	width: 900px;
 	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgb(245,245,245);
+	background-color: rgb(220,220,220);
 	margin-bottom: 100px;
 }
-div.iconImg {
+.contactText {
+	font-size:20px;
+	margin-top:40px;
+	margin-bottom:20px;
+	text-align: center;
+}
+.iconImg {
 	margin: 20px;
 	display: inline-block;
 	width: 50px;
 	height: 50px;
 }
-/*Contact Me*/
+/*End Contact Page ===========================================================================================*/
+/*Start Profile Page ===========================================================================================*/
+.profileBox{
+	background-color: rgb(220,220,220);
+	width: 30%;
+	height: 600px;
+	float: left;
+	margin-left: 5%;
+}
+.infoBox{
+	background-color: rgb(220,220,220);
+	width: 55%;
+	height: 600px;
+	float: right;
+	margin-right: 5%;
+}
+.img-circle {
+	border-radius: 50%;
+	width: 70%; 
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block; 
+	margin-top: 40px; 
+	margin-bottom: 50px;
+}
+.smallIconImg {
+	margin: 4%;
+	display: inline-block;
+	width: 15%;
+}
+span.longline1 {
+	width:270px;
+	height:2px;
+	display:inline-block;
+	background-color:#7FA1BF;
+	margin-top: 3%;
+}
+span.shortline1 {
+	width:30px;
+	height:2px;
+	display:inline-block;
+	background-color:#fff;
+	margin-top: 3%;
+}
+span.longline2 {
+	width:240px;
+	height:2px;
+	display:inline-block;
+	background-color:#7FA1BF;
+	margin-top: 3%;
+}
+span.shortline2 {
+	width:60px;
+	height:2px;
+	display:inline-block;
+	background-color:#fff;
+	margin-top: 3%;
+}
+span.longline3 {
+	width:255px;
+	height:2px;
+	display:inline-block;
+	background-color:#7FA1BF;
+	margin-top: 3%;
+}
+span.shortline3 {
+	width:45px;
+	height:2px;
+	display:inline-block;
+	background-color:#fff;
+	margin-top: 3%;
+}
+span.longline4 {
+	width:225px;
+	height:2px;
+	display:inline-block;
+	background-color:#7FA1BF;
+	margin-top: 3%;
+}
+span.shortline4 {
+	width:75px;
+	height:2px;
+	display:inline-block;
+	background-color:#fff;
+	margin-top: 3%;
+}
+.miscBox{
+	float: left;
+	background-color: rgb(220,220,220);
+	width: 50%;
+	height: 350px;
+	margin-top: 150px;
+	margin-left: 5%;
+}
+.randomBox{
+	float: right;
+	background-color: rgb(220,220,220);
+	margin-right: 5%;
+	width: 35%;
+	height: 350px;
+	margin-top: 150px;
+}
+.toolsInfo{
+	float: left;
+	margin-left: 15%;
+}
+.miscInfo{
+	float: right;
+	margin-right: 15%;
+}
+/*End Profile Page ===========================================================================================*/
+/*Start Project Page =========================================================================================*/
+.img {
+	margin: 1.5%;
+	display: inline-block;
+	width: 30%;
+	opacity: 1;
+}
+.img:hover {
+	opacity: 0.5;
+	transition: 0.5s all;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*End Project Page =========================================================================================*/
