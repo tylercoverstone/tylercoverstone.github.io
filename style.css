@@ -34,7 +34,7 @@ li a {
 	padding: 14px 16px;
 	text-decoration: none;
 }
-.activeNav {
+li a.activeNav {
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;
 	color: white;
