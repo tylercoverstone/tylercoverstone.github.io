@@ -13,6 +13,7 @@ p {
 .fixedBackground {
 	background-image: url("images/surfBackground.JPG");
 	background-repeat: no-repeat;
+	width: 100%;
 }
 .greetingHeader {
 	width: 100%;
