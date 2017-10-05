@@ -15,6 +15,13 @@ p {
 	background-repeat: no-repeat;
 	width: 100%;
 }
+.backgroundImg {
+	z-index: -1;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 .greetingHeader {
 	width: 100%;
 }
