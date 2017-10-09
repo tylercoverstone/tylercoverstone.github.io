@@ -25,6 +25,10 @@ p {
 .greetingHeader {
 	width: 100%;
 }
+.resizable {
+	display: block; 
+	margin-bottom: 40vw;
+}
 ul {
 	list-style-type: none;
 	padding: 0;
