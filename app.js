@@ -75,7 +75,7 @@ myApp.controller("ProjectsCtrl", function($scope){
 		},
 		{
 			title: "Water Solutions Website",
-			imgURL: "images/g835.png",
+			imgURL: "images/logo.png",
 			description: "SMIRK (Secure Medical Information Repository Kit) is an application that I made with three other peers to compete in the University of Connecticut's CyberSEED 2017 cyber security coding competition. This application was written in Python, and uses Django and MariaDB. SMIRK is to be used as a medium for record creation and upkeep in a hospital setting, where authenticated users are assigned a specific role (i.e. Doctor, Patient, Medical Administrator, etc.). With each role, a list of permissions are available to the user (i.e. view patients' information, create a certain type of record, view specific records, etc.). The integration test client program can be run to insert test information to the application, and the status of the runtime will be updated in the console as well as to be observable in the application. The backdoor client is used to insert data from an XML file into the database, and can also be used to dump the database. After we finished our code for this project, our school was unable to organize the details for our travel in time, so we ended up not being able to participate in the competition. However, I am proud of the program that we created and I learned a tremendous amount. The source code for this project can be found on my Github."
 		},
 		{
