@@ -64,21 +64,6 @@ myApp.controller("ProjectsCtrl", function($scope){
 
 	$scope.projects =[
 		{
-			title: "UNF Surf",
-			imgURL: "images/splash.png",
-			description: "UNF Surf is a mobile application, downloadable on both iOS and Android platforms. I made this app for the team as a centralized point of communication and data; this includes anouncements, contest schedules, event dates, photos, team profiles, and more. Administrators are able to push posts to the database that can be viewed instantaneously on the feed of the application. Not affiliated with the UNF Surf team? No problem! Our awesome sponsors use UNF Surf as a medium to post deals and discount codes for their merchandise. \n\n     I made this application using AngularJS 2, the Ionic Framework, and data storing with Google Firebase. The source code is compiled using Cordova, so that the application can be launched on multiple mobile platforms. This application is awaiting approval from UNF Student Government before deployment to the app store within the next few weeks."
-		},
-		{
-			title: "Packfinder",
-			imgURL: "images/PFDisplay.PNG",
-			description: "Packfinder is a prototype of an application for a peer with a startup company, written in Swift and designed in Xcode. The basic idea of this application is to serve as a medium for car enthusiasts to meet and share ideas, as well as to schedule car make and model meets through the use of maps and geolocation. However, this application is only partially functional as its intention was to show potential investors and straighten out ideas for the company."
-		},
-		{
-			title: "Further Learning",
-			imgURL: "images/udemy.jpg",
-			description: "Staying busy is a priority of mine, as gaining knowledge in the field of development is both enjoyable and indespensable. This is why I am constantly pushing myself to take on new projects, learn new things, and program in as much free time as I am offered outside of my studies at school. I am constantly taking courses online through websites such as Udemy and Lynda so that I can broaden my knowledge with the end goal of being a well rounded developer. Some courses that I have taken include topics of\n\nWeb Development,\n\nJavaScript Frameworks,\n\niOS Development,\n\nThe Ionic Framework,\n\nXamarin,\n\nC#,\n\nPython,\n\nand more."
-		},
-		{
 			title: "Internship at Florida Blue",
 			imgURL: "images/flBlue.png",
 			description: "SMIRK (Secure Medical Information Repository Kit) is an application that I made with three other peers to compete in the University of Connecticut's CyberSEED 2017 cyber security coding competition. This application was written in Python, and uses Django and MariaDB. SMIRK is to be used as a medium for record creation and upkeep in a hospital setting, where authenticated users are assigned a specific role (i.e. Doctor, Patient, Medical Administrator, etc.). With each role, a list of permissions are available to the user (i.e. view patients' information, create a certain type of record, view specific records, etc.). The integration test client program can be run to insert test information to the application, and the status of the runtime will be updated in the console as well as to be observable in the application. The backdoor client is used to insert data from an XML file into the database, and can also be used to dump the database. After we finished our code for this project, our school was unable to organize the details for our travel in time, so we ended up not being able to participate in the competition. However, I am proud of the program that we created and I learned a tremendous amount. The source code for this project can be found on my Github."
@@ -92,6 +77,21 @@ myApp.controller("ProjectsCtrl", function($scope){
 			title: "Water Solutions Website",
 			imgURL: "images/g835.png",
 			description: "SMIRK (Secure Medical Information Repository Kit) is an application that I made with three other peers to compete in the University of Connecticut's CyberSEED 2017 cyber security coding competition. This application was written in Python, and uses Django and MariaDB. SMIRK is to be used as a medium for record creation and upkeep in a hospital setting, where authenticated users are assigned a specific role (i.e. Doctor, Patient, Medical Administrator, etc.). With each role, a list of permissions are available to the user (i.e. view patients' information, create a certain type of record, view specific records, etc.). The integration test client program can be run to insert test information to the application, and the status of the runtime will be updated in the console as well as to be observable in the application. The backdoor client is used to insert data from an XML file into the database, and can also be used to dump the database. After we finished our code for this project, our school was unable to organize the details for our travel in time, so we ended up not being able to participate in the competition. However, I am proud of the program that we created and I learned a tremendous amount. The source code for this project can be found on my Github."
+		},
+		{
+			title: "UNF Surf",
+			imgURL: "images/splash.png",
+			description: "UNF Surf is a mobile application, downloadable on both iOS and Android platforms. I made this app for the team as a centralized point of communication and data; this includes anouncements, contest schedules, event dates, photos, team profiles, and more. Administrators are able to push posts to the database that can be viewed instantaneously on the feed of the application. Not affiliated with the UNF Surf team? No problem! Our awesome sponsors use UNF Surf as a medium to post deals and discount codes for their merchandise. \n\n     I made this application using AngularJS 2, the Ionic Framework, and data storing with Google Firebase. The source code is compiled using Cordova, so that the application can be launched on multiple mobile platforms. This application is awaiting approval from UNF Student Government before deployment to the app store within the next few weeks."
+		},
+		{
+			title: "Packfinder",
+			imgURL: "images/PFDisplay.PNG",
+			description: "Packfinder is a prototype of an application for a peer with a startup company, written in Swift and designed in Xcode. The basic idea of this application is to serve as a medium for car enthusiasts to meet and share ideas, as well as to schedule car make and model meets through the use of maps and geolocation. However, this application is only partially functional as its intention was to show potential investors and straighten out ideas for the company."
+		},
+		{
+			title: "Further Learning",
+			imgURL: "images/udemy.jpg",
+			description: "Staying busy is a priority of mine, as gaining knowledge in the field of development is both enjoyable and indespensable. This is why I am constantly pushing myself to take on new projects, learn new things, and program in as much free time as I am offered outside of my studies at school. I am constantly taking courses online through websites such as Udemy and Lynda so that I can broaden my knowledge with the end goal of being a well rounded developer. Some courses that I have taken include topics of\n\nWeb Development,\n\nJavaScript Frameworks,\n\niOS Development,\n\nThe Ionic Framework,\n\nXamarin,\n\nC#,\n\nPython,\n\nand more."
 		}
 	];
 
