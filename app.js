@@ -41,7 +41,7 @@ myApp.controller("HeaderCtrl", function($scope, $location){
 myApp.controller("IntroCtrl", function($scope){ 
 	$scope.appDetails = {
 		hello: "Hi, I'm Tyler.",
-		about1: "I'm an undergraduate student of Computer Science at the University of North Florida.",
+		about1: "I'm an graduate of the Computer Science program at the University of North Florida.",
 		about2: "Explore this site to learn more about me, my technical skills, and my projects.",
 		about3: "When I'm not programming, I enjoy surfing, fishing, and reading."
 
