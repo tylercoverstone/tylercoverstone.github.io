@@ -66,7 +66,7 @@ myApp.controller("ProjectsCtrl", function($scope){
 		{
 			title: "Internship at Florida Blue",
 			imgURL: "images/flBlue.png",
-			description: "In May of 2018, I took on a Internship role at Florida Blue in a summer program, within the Web and Mobile Development team to work on sales-side applications. That program expired in the beginning of August, and in that time I learned a great deal about healthcare market, my role in a true team environment for developing software, agile development procedures in action (such as kanban and scrum), and the tools we used to complete our tasks. I currently still work at Florida Blue in the Web and Mobile Development area."
+			description: "In May of 2018, I took on a Internship role at Florida Blue in a summer program, within the Web and Mobile Development team to work on sales-side applications. That program expired in the beginning of August, and in that time I learned a great deal about healthcare market, my role in a true team environment for developing software, agile development procedures using SCRUM, and the tools we used to complete our tasks. I was hired at the end of my internship program, and currently still work at Florida Blue in the Web and Mobile Development area. My day-to-day activities lately consist of Java development, as well as regression and acceptance testing for new releases."
 		},
 		{
 			title: "SMIRK",
