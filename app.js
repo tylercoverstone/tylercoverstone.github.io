@@ -43,7 +43,7 @@ myApp.controller("IntroCtrl", function($scope){
 		hello: "Hi, I'm Tyler.",
 		about1: "I'm a graduate of the Computer Science program at the University of North Florida.",
 		about2: "Explore this site to learn more about me, my technical skills, and my projects.",
-		about3: "When I'm not programming, I enjoy surfing, fishing, and reading."
+		about3: "When I'm not programming, I enjoy surfing, fishing, playing guitar, and reading."
 
 	};
 });
@@ -57,16 +57,21 @@ myApp.controller("AboutCtrl", function($scope){
 
 myApp.controller("ProjectsCtrl", function($scope){ 
 	$scope.appDetails = {
-		title: "Project List.",
+		title: "Employment and Project List.",
 		arrow: "images/arrow1.png"
 	};
 
 
 	$scope.projects =[
 		{
+			title: "Software Engineer at FIS",
+			imgURL: "images/fis.png",
+			description: "I joined FIS in June of 2019 as a Software Engineer I, essentially added to a development team in the network monitoring space which needed a Java specialist for Java Web Application development. While the primary bulk of my work still remains in that area, my job has evolved quite a bit to include a lot more, which I am appreciating the new challenges and solutioning opportunities. I am now a Systems Programmer II, and some other things outside of Web App development in my daily operations include server side scripting and automations, network troubleshooting, third party application management and integration, customizations for existing systems, API development, technical documentation, and basically anything else that gets thrown my way. I am also the dedicated ‘Knowledge Coach’, for my team, meaning that I manage, update, and commit all of our team’s proprietary and technical documentation in our company’s informational repository. I own, manage, and support all of my applications and developments as well. I am currently still working at FIS, and what I appreciate the most is my team, manager, and the fact that we are a tight knit, small group that can move fast and collaborate heavily with our personal set of skills in respective areas."
+		},
+		{
 			title: "Internship at Florida Blue",
 			imgURL: "images/flBlue.png",
-			description: "In May of 2018, I took on a Internship role at Florida Blue in a summer program, within the Web and Mobile Development team to work on sales-side applications. That program expired in the beginning of August, and in that time I learned a great deal about healthcare market, my role in a true team environment for developing software, agile development procedures using SCRUM, and the tools we used to complete our tasks. I was hired at the end of my internship program, and currently still work at Florida Blue in the Web and Mobile Development area. My day-to-day activities lately consist of Java development, as well as regression and acceptance testing for new releases."
+			description: "In May of 2018, I took on a Internship role at Florida Blue in a summer program, within the Web and Mobile Development team to work on sales-side applications as my first real experience with professional software development. That program expired in the beginning of August 2018, and in that time I learned a great deal about healthcare market, my role in a true team environment for developing software, agile development procedures using SCRUM, and the tools we used to complete our tasks. I was hired at the end of my internship program, and remained at Florida Blue in the Web and Mobile Development area until May of 2019. My day-to-day activities consisted of Java development, as well as regression and acceptance testing for new releases."
 		},
 		{
 			title: "SMIRK",

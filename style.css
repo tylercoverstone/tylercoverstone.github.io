@@ -250,7 +250,7 @@ span.shortline4 {
 	float: left;
 	background-color: rgb(220,220,220);
 	width: 50%;
-	height: 400px;
+	height: 600px;
 	margin-top: 150px;
 	margin-left: 5%;
 }
@@ -264,11 +264,11 @@ span.shortline4 {
 }
 .toolsInfo{
 	float: left;
-	margin-left: 15%;
+	margin-left: 5%;
 }
 .miscInfo{
 	float: right;
-	margin-right: 15%;
+	margin-right: 5%;
 }
 /*End Profile Page ===========================================================================================*/
 /*Start Project Page =========================================================================================*/
