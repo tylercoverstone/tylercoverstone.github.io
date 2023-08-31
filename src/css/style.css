@@ -1,0 +1,57 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.introContainer{
+    margin-top: 4vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.SideNavText {
+    padding: 10px; 
+    color:white;
+}
+
+.ListItem {
+    transition: 0.3s;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.ListItem:hover {
+    background-color: #7d7d7d;
+}
+
+.gridTextContainer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+}
+
+.smallLineContainer {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    color: white;
+}
+
+section {
+    opacity: 0;
+    transform: translate(0, 25%);
+    visibility: hidden;
+    transition: opacity 300ms ease-out, transform 300ms ease-out;
+    will-change: opacity, visibility;
+}
+
+.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+    /*display: flex; */
+}
