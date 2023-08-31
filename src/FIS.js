@@ -10,6 +10,10 @@ import { KeyboardArrowLeft, KeyboardArrowRight } from "@mui/icons-material";
 
 function FIS() {
 
+  useEffect(() => {
+    document.title = 'Tyler Coverstone';
+  }, []);
+
   const [activeStep, setActiveStep] = React.useState(0);
 
   const projectRefs = useRef(fisProjects.map(() => createRef()));

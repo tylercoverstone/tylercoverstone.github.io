@@ -1,9 +1,15 @@
+import { useEffect } from "react";
 import { ThemeProvider, Grid, Container, Typography} from "@mui/material";
 import FadeInWrapper from "./components/FadeInWrapper";
 import flBlueTheme from "./themes/FLBlueTheme";
 import './css/style.css'
 
 function FloridaBlue() {
+
+  useEffect(() => {
+    document.title = 'Tyler Coverstone';
+  }, []);
+
   return (
     <>
       <ThemeProvider theme={flBlueTheme}>

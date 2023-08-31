@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Grid, Container, Typography, Paper, ThemeProvider } from '@mui/material';
 import FadeInWrapper from './components/FadeInWrapper';
 import contactMeTheme from './themes/ContactMeTheme';
@@ -6,6 +7,11 @@ import EmailerForm from './components/EmailerForm';
 
 
 function ContactMe() {
+
+  useEffect(() => {
+    document.title = 'Tyler Coverstone';
+  }, []);
+
   return (
     <div>
       <ThemeProvider theme={contactMeTheme}>

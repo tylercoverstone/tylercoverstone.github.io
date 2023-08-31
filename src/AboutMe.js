@@ -14,6 +14,10 @@ import './css/style.css'
 
 function AboutMe() {
 
+  useEffect(() => {
+    document.title = 'Tyler Coverstone';
+  }, []);
+  
   const [surfAnchorEl, setSurfAnchorEl] = useState(null);
   const [musicAnchorEl, setMusicAnchorEl] = useState(null);
   const [buildAnchorEl, setBuildAnchorEl] = useState(null);
