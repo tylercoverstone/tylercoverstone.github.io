@@ -19,6 +19,11 @@ a:visited {
     color:white;
 }
 
+.ActiveSideNavText {
+    padding: 10px; 
+    color:#7EADF7;
+}
+
 .ListItem {
     transition: 0.3s;
     border-top: 1px solid black;

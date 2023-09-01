@@ -1,6 +1,6 @@
 const toolList = [  
     {
-        name: 'VSCode',
+        name: 'VS Code',
         percentage: 0.95,
     },
     {
@@ -24,8 +24,20 @@ const toolList = [
         percentage: 0.80,
     },
     {
+        name: 'Github',
+        percentage: 0.80,
+    },
+    {
+        name: 'Maven',
+        percentage: 0.80,
+    },
+    {
         name: 'Xcode',
         percentage: 0.80,
+    },
+    {
+        name: 'SVN',
+        percentage: 0.75,
     },
     
 ]

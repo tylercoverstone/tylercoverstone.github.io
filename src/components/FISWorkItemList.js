@@ -10,8 +10,8 @@ const FISWorkItemList = ({projectRefs}) => {
     <>
     {fisProjects.map((item, index) => (
         
-        <React.Fragment >
-            <Grid item xs={12} key={index} ref={projectRefs.current[index]}>
+        <React.Fragment key={index}>
+            <Grid item xs={12}  ref={projectRefs.current[index]}>
                 <Container className='gridTextContainer'>
                     <Typography variant="h4"><b>{item.title}</b> </Typography>
                     <Typography variant="h6">{item.subtitle}</Typography>

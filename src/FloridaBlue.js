@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { ThemeProvider, Grid, Container, Typography} from "@mui/material";
+import { ThemeProvider, Grid, Container, Typography, List, ListItem, ListItemText} from "@mui/material";
 import FadeInWrapper from "./components/FadeInWrapper";
 import flBlueTheme from "./themes/FLBlueTheme";
 import './css/style.css'
@@ -51,14 +51,34 @@ function FloridaBlue() {
               <Container className='gridTextContainer'>
                 <Typography variant="h4">What I Learned,</Typography>
                 <FadeInWrapper>
-                <Typography variant="body1">As my first foray into productionized software development in a corporate environment, I feel as this was a great introduction into core skills and concepts that I would practice for the remainder of my career. Specifically, I learned and practiced:
-                <ul>
-                  <li><b>Agile Development:</b> We utilized SCRUM practices, and I learned how to work with my team to develop and rate tasks that would be assigned to stories, then organize these into sprints which I would perform and track via standups and sprint planning.</li>
-                  <li><b>CI/CD Pipelining:</b> I began to understand version control in a productionized setting, and practiced continuous integration and development via incremental development in sprints.</li>
-                  <li><b>Development in a Corporate Environment:</b> Other than Agile Development and CI/CD practices, I also learned valuable strategies for programming in a productionized corporate setting such as writing code that adheres to team standards, documentation and commenting, version control, and the importance of building re-usable and well-maintained code.</li>
-                  <li><b>Technical Documentation:</b> I learned how to lay out, plan, and accurately write documentation for both user and developer perspectives to accompany software.</li>
-                </ul>
-                </Typography>
+                <Typography variant="body1">As my first foray into productionized software development in a corporate environment, I feel as this was a great introduction into core skills and concepts that I would practice for the remainder of my career. Specifically, I learned and practiced:</Typography>
+                <List>
+                  <ListItem>
+                    <ListItemText
+                    primary="Agile Development:"
+                    secondary="We utilized SCRUM practices, and I learned how to work with my team to develop and rate tasks that would be assigned to stories, then organize these into sprints which I would perform and track via standups and sprint planning."  
+                    />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText
+                    primary="CI/CD Pipelining:"
+                    secondary="I began to understand version control in a productionized setting, and practiced continuous integration and development via incremental development in sprints."  
+                    />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText
+                    primary="Development in a Corporate Environment:"
+                    secondary="Other than Agile Development and CI/CD practices, I also learned valuable strategies for programming in a productionized corporate setting such as writing code that adheres to team standards, documentation and commenting, version control, and the importance of building re-usable and well-maintained code."  
+                    />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText
+                    primary="Technical Documentation:"
+                    secondary="I learned how to lay out, plan, and accurately write documentation for both user and developer perspectives to accompany software."  
+                    />
+                  </ListItem>
+                </List>
+                
                 </FadeInWrapper>
               </Container>
             </Grid>

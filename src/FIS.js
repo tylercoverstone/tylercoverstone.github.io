@@ -22,26 +22,16 @@ function FIS() {
     
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
     projectRefs.current[activeStep+1].current?.scrollIntoView({ behavior: "smooth" });
-    //console.log(activeStep+1)
-    //console.log(projectRefs.current[activeStep+1])
-    
   };
 
   const handleBack = () => {
     
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
     projectRefs.current[activeStep-1].current?.scrollIntoView({ behavior: "smooth" });
-    //console.log(activeStep-1)
-    //console.log(projectRefs.current[activeStep-1])
-    
   };
 
   const [height, setHeight] = useState(0);
   const stepperHeightRef = useRef(null);
-
-  useEffect(() => {
-    //setHeight(stepperHeightRef.current.clientHeight);
-  })
 
   const projectsStartRef = useRef(null);
 
@@ -49,54 +39,9 @@ function FIS() {
     projectsStartRef.current?.scrollIntoView({ behavior: "smooth" });
   }
 
-  /*
-  <AppBar 
-      ref={stepperHeightRef}
-      position="fixed"
-      sx={{
-        //marginTop: fisTheme.mixins.toolbar.minHeight-50
-        height:"8vh",
-        marginTop: "92vh",
-      }}
-      > 
-        <MobileStepper
-          variant="dots"
-          steps={fisProjects.length}
-          position="static"
-          activeStep={activeStep}
-          //sx={{ maxWidth: 400, flexGrow: 1 }}
-          nextButton={
-            <Button size="small" onClick={handleNext} disabled={activeStep === fisProjects.length-1} sx={{width:'10vw'}}>
-              {fisTheme.direction === 'rtl' ? (
-                <KeyboardArrowLeft />
-              ) : (
-                <KeyboardArrowRight />
-              )}
-            </Button>
-          }
-          backButton={
-            <Button size="small" onClick={handleBack} disabled={activeStep === 0} sx={{width:'10vw'}}>
-              {fisTheme.direction === 'rtl' ? (
-                <KeyboardArrowRight />
-              ) : (
-                <KeyboardArrowLeft />
-              )}
-            </Button>
-          }
-          sx={{
-            height:'100%'
-          }}
-        />
-      </AppBar>
-  */
-
-
   return (
     <>
       <ThemeProvider theme={fisTheme}>
-
-      
-
         <Container className='introContainer'>
           <Grid container spacing={4}>
 
