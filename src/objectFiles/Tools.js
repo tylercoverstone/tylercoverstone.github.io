@@ -16,6 +16,10 @@ const toolList = [
         percentage: 0.85,
     },
     {
+        name: 'GitLab',
+        percentage: 0.85,
+    },
+    {
         name: 'dBeaver',
         percentage: 0.85,
     },

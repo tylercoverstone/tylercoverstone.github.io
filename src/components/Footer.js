@@ -7,7 +7,7 @@ function Footer(){
             <ThemeProvider theme={FooterTheme}>
                 <Grid container spacing={2} sx={{paddingTop: '2rem', paddingBottom: '1rem'}}>
                     <Grid item xs={12} sx={{textAlign: 'center'}}>
-                        <Typography variant="body2"> &#169; 2023 Tyler Coverstone</Typography>
+                        <Typography variant="body2"> &#169; 2024 Tyler Coverstone</Typography>
                     </Grid>
                 </Grid>
             </ThemeProvider>

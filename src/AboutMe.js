@@ -112,7 +112,7 @@ function AboutMe() {
                 
                 <Typography variant='h6'>Hi, my name is</Typography>
                 <Typography variant='h1' sx={{ typography: { sm: 'h1', xs: 'h3' } }}>Tyler Coverstone</Typography>
-                <Typography variant='h6'>I'm currently a Systems Programmer III at FIS Global.</Typography>
+                <Typography variant='h6'>I'm currently a Core Application Software Developer at Finxact.</Typography>
                 <hr></hr>
               </Container>
             </Grid>
@@ -160,7 +160,7 @@ function AboutMe() {
 
             <Grid item xs={12}>
               <Container className='gridTextContainer'>
-                <Typography variant='body1'>I am a software developer that is passionate about making solutions that are not only useful, but also intuitive and user experience focused. I love to build, create, and learn. When I'm not programming, I like to 
+                <Typography variant='body1'>I am an engineer that is passionate about making solutions that are not only useful, but also intuitive and user experience focused. I love to build, create, and learn. When I'm not programming, I like to 
                   <b
                     style={{color:'#7eadf7'}} 
                     aria-owns={Boolean(musicAnchorEl) ? "music-menu" : undefined} 

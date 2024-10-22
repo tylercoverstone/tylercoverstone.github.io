@@ -16,6 +16,10 @@ const languageList = [
         percentage: 0.85,
     },
     {
+        name: 'Go',
+        percentage: 0.85,
+    },
+    {
         name: 'C',
         percentage: 0.75,
     },

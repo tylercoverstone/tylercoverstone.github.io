@@ -8,6 +8,10 @@ const conceptList = [
         percentage: 0.90,
     },
     {
+        name: 'API Development',
+        percentage: 0.85,
+    },
+    {
         name: 'Frontend Development',
         percentage: 0.85,
     },
@@ -26,10 +30,6 @@ const conceptList = [
     {
         name: 'Cloud Development',
         percentage: 0.80,
-    },
-    {
-        name: 'API Development',
-        percentage: 0.70,
     },
     {
         name: 'Design and Architecture',

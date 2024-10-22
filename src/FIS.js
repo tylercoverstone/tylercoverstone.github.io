@@ -60,8 +60,8 @@ function FIS() {
                   <Container className='gridTextContainer'>
                     <Typography variant="h2">FIS</Typography>
                     <Typography variant="h4">Systems Programmer III</Typography>
-                    <Typography variant="h4">June 2019 - Current</Typography>
-                    <Typography variant="body1">In June of 2019 I started at FIS as a Entry Level Software Engineer, and am now currently a Systems Programmer III. Despite what my title may suggest, my work at this company has been primarily full stack development-centric, and some of my completed and current projects and include Aureus, Minerva, Event Dispatch, Certificate Monitoring, and the Device Addition and Deletion Interface. You can read more about each of these projects below.</Typography>
+                    <Typography variant="h4">June 2019 - October 2024</Typography>
+                    <Typography variant="body1">In June of 2019 I started at FIS as a Entry Level Software Engineer, and I departed in October 2024 as a Systems Programmer III. Despite what my title may suggest, my work at this company has been primarily full stack development-centric, and some of my completed and current projects and include Aureus, Minerva, Event Dispatch, Certificate Monitoring, and the Device Addition and Deletion Interface. You can read more about each of these projects below.</Typography>
                   </Container>
               </FadeInWrapper>
             </Grid>

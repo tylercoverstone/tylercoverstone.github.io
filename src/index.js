@@ -5,6 +5,7 @@ import './css/index.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutMe from './AboutMe';
+import Finxact from './Finxact';
 import FIS from './FIS';
 import FloridaBlue from './FloridaBlue';
 import ContactMe from './ContactMe';
@@ -20,6 +21,7 @@ root.render(
           <Header/>
           <Routes>
             <Route path='/' element={<AboutMe/>}/>
+            <Route path='/finxact' element={<Finxact/>}/>
             <Route path='/fis' element={<FIS/>}/>
             <Route path='/floridablue' element={<FloridaBlue/>}/>
             <Route path='/contact' element={<ContactMe/>}/>

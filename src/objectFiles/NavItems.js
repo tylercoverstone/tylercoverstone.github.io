@@ -15,6 +15,7 @@ const NavItemList = [
         icon: 'CodeRounded',
         //to: "/work",
         links: [
+            {title: "Finxact", to: "/finxact"},
             {title: "FIS", to: "/fis"},
             {title: "Florida Blue", to: "/floridablue"}
         ]
