@@ -4,20 +4,28 @@ const toolList = [
         percentage: 0.95,
     },
     {
-        name: 'SecureCRT, puTTY, RDP, WinSCP',
+        name: 'JIRA',
         percentage: 0.95,
+    },
+    {
+        name: 'Copilot',
+        percentage: 0.90,
+    },
+    {
+        name: 'GitLab',
+        percentage: 0.90,
+    },
+    {
+        name: 'pgAdmin',
+        percentage: 0.90,
+    },
+    {
+        name: 'Github',
+        percentage: 0.90,
     },
     {
         name: 'Eclipse',
         percentage: 0.90,
-    },
-    {
-        name: 'JIRA',
-        percentage: 0.85,
-    },
-    {
-        name: 'GitLab',
-        percentage: 0.85,
     },
     {
         name: 'dBeaver',
@@ -25,10 +33,6 @@ const toolList = [
     },
     {
         name: 'Bitbucket',
-        percentage: 0.80,
-    },
-    {
-        name: 'Github',
         percentage: 0.80,
     },
     {

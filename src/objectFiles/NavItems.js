@@ -1,5 +1,5 @@
 import React from "react";
-import { HomeRounded, CodeRounded, EmailRounded, ContactPageRounded} from "@mui/icons-material";
+import { ArticleRounded, HomeRounded, CodeRounded, EmailRounded, ContactPageRounded} from "@mui/icons-material";
 
 const NavItemList = [
     {

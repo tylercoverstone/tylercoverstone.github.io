@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { ThemeProvider, Grid, Container, Typography, IconButton, } from '@mui/material';
-import { Instagram, Facebook, GitHub, LinkedIn, KeyboardArrowDownRounded } from '@mui/icons-material';
+import { Instagram, Facebook, GitHub, LinkedIn, KeyboardArrowDownRounded, ArticleRounded } from '@mui/icons-material';
 import ProficiencyTable from "./components/ProficiencyTable";
 import AnnotatedImagePopover from "./components/AnnotatedImagePopover";
 import FadeInWrapper from "./components/FadeInWrapper";
@@ -56,8 +56,8 @@ function AboutMe() {
       open: Boolean(musicAnchorEl),
       onClose: handleMusicClose,
       aspectRatio:'3648/5472',
-      image:require('./images/music.JPG'),
-      textContent:"I've been playing guitar from a young age, and I write and perform with a few different musical projects.",
+      image:require('./images/woodwork.jpg'),
+      textContent:"I've been handtool woodworking for years now, and I love to make all kinds of furniture.",
     },
     {
       id: 'surf-menu',
@@ -120,38 +120,31 @@ function AboutMe() {
             <Grid item xs={12} sm={12} md={4}>
               <Grid container rowSpacing={2}>
                 <Grid item xs={12}>
-                  <Container className='gridTextContainer'>
+                  <Container className='gridTextContainer' sx={{textAlign:'center'}}>
                     <div style={{/*minHeight:'calc(1*30vw)'*/}}>
                       {/*<img src={require('./images/ProfilePlaceholder.JPG')} width='100%' style={{borderRadius:'50%'}}/>*/}
                       <img src={require('./images/headshot.jpg')} width='100%' style={{borderRadius:'50%'}}/>
                     </div>
                   </Container>
                 </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={4}>
+                  <Container className='gridTextContainer' sx={{textAlign:'center'}}>
+                    <IconButton aria-label='LinkedIn'>
+                      <a href={require('.//images/Resume.pdf')} target={'_blank'}><ArticleRounded/></a>
+                    </IconButton>  
+                  </Container>
+                </Grid>
+                <Grid item xs={4}>
                   <Container className='gridTextContainer' sx={{textAlign:'center'}}>
                     <IconButton aria-label='LinkedIn' onClick={() => window.open("https://www.linkedin.com/in/tyler-coverstone-b30854285/", "_blank")}>
                       <LinkedIn/>
                     </IconButton>
                   </Container>
                 </Grid>
-                <Grid item xs={3}>
-                  <Container className='gridTextContainer' sx={{textAlign:'center'}}>
-                    <IconButton aria-label='Instagram' onClick={() => window.open("https://www.instagram.com/coverstone321/", "_blank")}>
-                      <Instagram/>
-                    </IconButton>
-                  </Container>
-                </Grid>
-                <Grid item xs={3}>
+                <Grid item xs={4}>
                   <Container className='gridTextContainer' sx={{textAlign:'center'}}>
                     <IconButton aria-label='GitHub' onClick={() => window.open("https://github.com/tylercoverstone", "_blank")}>
                       <GitHub/>
-                    </IconButton>
-                  </Container>
-                </Grid>
-                <Grid item xs={3}>
-                  <Container className='gridTextContainer' sx={{textAlign:'center'}}>
-                    <IconButton aria-label='Facebook' onClick={() => window.open("https://www.facebook.com/tyler.coverstone.9", "_blank")}>
-                      <Facebook/>
                     </IconButton>
                   </Container>
                 </Grid>
@@ -168,7 +161,7 @@ function AboutMe() {
                     onClick={handleMusicClick} 
                     onMouseEnter={handleMusicClick}
                     onMouseLeave={handleMusicClose}
-                  > play music
+                  > woodwork
                   </b>, 
                   <b 
                     style={{color:'#7eadf7'}} 

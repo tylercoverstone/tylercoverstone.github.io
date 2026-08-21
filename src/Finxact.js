@@ -33,7 +33,7 @@ function Finxact() {
                     <Typography variant="h2">Finxact</Typography>
                     <Typography variant="h4">Core Application Software Developer</Typography>
                     <Typography variant="h4">October 2023 - Current</Typography>
-                    <Typography variant="body1">I jumped into Finxact in October of 2023 as a developer on their Core API banking platform. My work is on the lending side, with a focus on mortgage products and services.</Typography>
+                    <Typography variant="body1">I jumped into Finxact in October of 2023 as a developer on their Core API banking platform. My work started on the lending side, with a focus on mortgage products and services. I am now in a lead developer role in Core Strategic Development.</Typography>
                   </Container>
               </FadeInWrapper>
             </Grid>
@@ -42,7 +42,7 @@ function Finxact() {
               <Container className='gridTextContainer'>
               <Typography variant="h4">What I'm Doing at Finxact,</Typography>
                 <FadeInWrapper>
-                  <Typography variant="body1">I work in Go to build new products and functionalities for Finxact's core banking API's. We work directly with banking clients to provide customized solutions as a backbone to their services.</Typography>
+                  <Typography variant="body1">Generally, we work in Go to build new products and functionalities for Finxact's core banking API's. In my current role, I work in engineering and development of strategic initiatives which I help design, build, and interface alongside top development leadership at Finxact.</Typography>
                 </FadeInWrapper>
               </Container>
             </Grid>
@@ -54,14 +54,26 @@ function Finxact() {
                 <List>
                   <ListItem>
                     <ListItemText
-                    primary="Amortization and Receivable Scheduling Capabilities"
-                    secondary="I have worked in building out methods and calculations in amortizing mortgage loan products specific to the needs of multiple clients."  
+                    primary="Core Strategic Development"
+                    secondary="I can't go into product-specific details for what I'm currently working on, but my current role involves leading strategic development initiatives for Finxact's core banking platform. I work directly with development leadership in C-suite, VP, and Director roles to identify and target long term strategic intiatives in development, and then to design and build these products and frameworks. My role specifically involves design and architecture in this space, vetting POC's and exploring new and streamlined banking technology concepts in code, then executing development of these concepts into production-ready products and frameworks."  
+                    />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText
+                    primary="Relationship Pricing Decisioning Engine"
+                    secondary="Relationship pricing is a decision engine-based, customizable financial rewards platform built on the gRule framework. It allows for customers to recieve configured rewards based on custom rulesets against their accounts with their banking providers. Customizability between rewards and decisioning criteria is completely in the hands of the banking providers.I designed and built this product as a project owner and lead developer."  
+                    />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText
+                    primary="Amortization Algorithms and Logic"
+                    secondary="I have worked in building out complex algorithms and products in amortizing logic. These systems are deeply integrated into the core banking platform and are used to calculate amortization schedules for various lending products. Configurability and accuracy in this space is of paramount importance, and I have worked extensively in building out these systems to meet the needs of our clients."
                     />
                   </ListItem>
                   <ListItem>
                     <ListItemText
                     primary="Accrual Processes and Interest Calculation Methods"
-                    secondary="One of many things that can vary across different lending products is accrual processes and accompanying interest calculation methods. I have worked directly on building these processes out toward the specific needs of our clients and products."  
+                    secondary="One of many things that can vary across different lending products is accrual processes and accompanying interest calculation methods. I have worked directly on building these processes out toward the specific needs of our clients and products, such as custom accrual processes for mortgage products and interest calculation methods for specific loan types."  
                     />
                   </ListItem>
                   <ListItem>
@@ -72,7 +84,7 @@ function Finxact() {
                   </ListItem>
                   <ListItem>
                     <ListItemText
-                    primary="Tax Form Extracts"
+                    primary="Tax Form Extracts and Regulatory Compliance"
                     secondary="I have built out multiple instances of tax form extract services, which calculate and generate tax forms for all platform users in accordance to IRS specifications for consumption."  
                     />
                   </ListItem>

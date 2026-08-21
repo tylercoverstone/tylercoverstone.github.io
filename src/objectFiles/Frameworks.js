@@ -8,6 +8,14 @@ const frameworkList = [
         percentage: 0.95,
     },
     {
+        name: 'Docker',
+        percentage: 0.90,
+    },
+    {
+        name: 'gRule',
+        percentage: 0.85,
+    },
+    {
         name: 'Flink',
         percentage: 0.85,
     },
@@ -32,12 +40,16 @@ const frameworkList = [
         percentage: 0.70,
     },
     {
-        name: 'Docker',
+        name: 'Airflow',
         percentage: 0.70,
     },
     {
-        name: 'Airflow',
+        name: 'Protobuf',
         percentage: 0.70,
+    },
+    {
+        name: 'gRPC',
+        percentage: 0.65,
     },
     {
         name: 'Flask',

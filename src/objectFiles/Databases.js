@@ -1,10 +1,10 @@
 const databaseList = [
     {
-        name: 'MSSQL',
+        name: 'PostGres',
         percentage: 0.70,
     },
     {
-        name: 'PostGres',
+        name: 'MSSQL',
         percentage: 0.70,
     },
     {

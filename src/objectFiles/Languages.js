@@ -4,6 +4,10 @@ const languageList = [
         percentage: 0.95,
     },
     {
+        name: 'Go',
+        percentage: 0.90,
+    },
+    {
         name: 'Python',
         percentage: 0.90,
     },
@@ -13,10 +17,6 @@ const languageList = [
     },
     {
         name: 'Javascript',
-        percentage: 0.85,
-    },
-    {
-        name: 'Go',
         percentage: 0.85,
     },
     {
